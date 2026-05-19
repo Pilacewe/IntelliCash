@@ -1,11 +1,27 @@
-<div align="center">
+# Finora AI - Smart Finance Tracker
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A premium, modern AI-powered finance tracker that helps you manage cashflow, setting savings goals, and understand your financial health. Built with an intuitive dashboard resembling modern fintech apps.
 
-  <h1>Built with AI Studio</h2>
+## Technologies Used
+- Next.js 14 features mapped onto generic React + Vite SPA
+- Tailwind CSS (Dark Mode & Glassmorphism)
+- Framer Motion (Page Transitions)
+- Recharts (Interactive Analytics)
+- Firebase (Auth, Firestore)
+- Gemini AI API
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Run locally
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+```bash
+npm install
+npm run dev
+```
 
-</div>
+Note: Replace configurations inside `firebase-applet-config.json` with your Firebase data. Add `.env` containing your \`GEMINI_API_KEY\`.
+
+## Features
+- AI Agent Financial Advisor & Generative Insights
+- Cashflow area cart & pie chart expenses
+- Transaction Management
+- Savings Goal Progress Bar
+- Modern Premium Dark UI
